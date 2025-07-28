@@ -85,6 +85,12 @@
     <Compile Include="ROMI\FormRecordVideo.Designer.cs">
       <DependentUpon>FormRecordVideo.cs</DependentUpon>
     </Compile>
+    <Compile Include="WILDAN\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WILDAN\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -111,9 +117,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WILDAN\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
