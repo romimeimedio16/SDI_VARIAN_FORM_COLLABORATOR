@@ -16,7 +16,7 @@ namespace SDI_VARIAN_FORM_COLLABORATOR
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ROMI.FormRecordVideo());
+            Application.Run(new Form1());
         }
     }
 }
