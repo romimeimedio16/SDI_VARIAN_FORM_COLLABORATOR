@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /SDI_VARIAN_FORM_COLLABORATOR.sln
+/SDI_VARIAN_FORM_COLLABORATOR/Form3.cs
+/SDI_VARIAN_FORM_COLLABORATOR/Form3.Designer.cs
